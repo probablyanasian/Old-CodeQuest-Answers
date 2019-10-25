@@ -19,7 +19,7 @@ for line in range(int(readFile.pop(0).rstrip())):
     while value >= 1:
         value -= 1
         coins[3] += 1
-    solutionFile.write(f'{origValue}\nQuarters:{coins[0]}\nDimes:{coins[1]}\nNickel:{coins[2]}\nPennies:{coins[3]}\n')
+    solutionFile.write(f'{origValue}\nQuarters={coins[0]}\nDimes={coins[1]}\nNickels={coins[2]}\nPennies={coins[3]}\n')
 
 openFile.close()
 solutionFile.close()
