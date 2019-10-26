@@ -1,4 +1,4 @@
-openFile = open("Prob03.in.txt", 'r+')
+openFile = open("Prob03.in.txt", 'r')
 readFile = openFile.readlines()
 solutionFile = open("Prob03.solution.txt", "r+")
 solutionFile.seek(0)
